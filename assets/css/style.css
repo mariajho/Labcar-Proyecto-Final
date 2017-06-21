@@ -1,4 +1,7 @@
 
+*{
+	font-family:'Fira Sans', sans-serif;
+}
 
 .navbar{
 	background-color: white;
@@ -22,32 +25,71 @@
 
 }
 
-.recuadro{
+/*section-uno*/
+
+#foto-principal{
+	background-image: url(../labcar/img/taxi.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 700px;
+}
+
+.recuadro {
+    background: #FC9829;
+    width: 404px;
+    height: 300px;
+    padding: 37px;
+    margin-top: 155px;
+    margin-left: 225px;
+}
+
+
+#titulo-uno{
+	font-size: 30px;
+	color: white;
+	padding-right: 50px;
+}
+
+#titulo-dos{
+	font-size: 25px;
+	color: white;
+}
+
+p{
+	color: white;
+}
+
+#boton-dos{
+	margin-top: 48px;
+	font-weight: bold;
+}
+
+
+
+
+/*
+
+{
 	background: #FC9829;
-	width: 30%;
-	height: 300px;
-	padding-bottom: 50px;
-	position: absolute;
-	bottom: 50px;
-	left: 65%;
+	margin-bottom: 30%;
+		
 }
 
 
 #titulo-uno{
 	color: white;
 	font-weight: bold;
-	font-size: 25px;
-	font-family:'Fira Sans', sans-serif;
+	font-size: 20px;
 	padding-left: 30px;
-	padding-top: 30px;
+	padding-top: 10px;
 
 }
 
 #titulo-dos{
 	color: white;
 	font-weight: bold;
-	font-size: 25px;
-	font-family:'Fira Sans', sans-serif;
+	font-size: 20px;
 	padding-left: 30px;	
 }
 
@@ -70,3 +112,24 @@ p{
 	color: black;
 	font-weight: bold;
 }
+
+#titulo-tres{
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 20%;
+}
+
+/*sección-tres*/
+
+.dos{
+	background: #FC9829;
+}
+
+#titulo-tres{
+
+}
+
+
+
+
