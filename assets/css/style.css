@@ -35,6 +35,7 @@
     height: 700px;
 }
 
+/*proimer-recuadro*/
 .recuadro {
     background: #FC9829;
     width: 404px;
@@ -54,6 +55,7 @@
 #titulo-dos{
 	font-size: 25px;
 	color: white;
+	padding-bottom: 20px;
 }
 
 p{
@@ -65,71 +67,46 @@ p{
 	font-weight: bold;
 }
 
-
-
-
-/*
-
-{
-	background: #FC9829;
-	margin-bottom: 30%;
-		
+/*segundo-recuadro*/
+.recuadro-dos {
+    background: #FC9829;
+    width: 404px;
+    height: 300px;
+    padding: 37px;
+    margin-top: 155px;
+    margin-left: 225px;
+    z-index: 1000;
 }
 
-
-#titulo-uno{
+#comienza{
+	font-size: 30px;
 	color: white;
-	font-weight: bold;
-	font-size: 20px;
-	padding-left: 30px;
-	padding-top: 10px;
-
+	padding-right: 50px;
 }
 
-#titulo-dos{
-	color: white;
-	font-weight: bold;
-	font-size: 20px;
-	padding-left: 30px;	
-}
-
-p{
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	padding-top: 20px;
-	padding-left: 30px;
-}
-
-#tipografia{
-	width: 60px;
-
-}
-
-#boton-dos{
-	margin-left: 9%;
-	margin-top: 10%;
-	color: black;
+#boton-tres{
+	margin-top: 48px;
 	font-weight: bold;
 }
 
-#titulo-tres{
-	color: white;
-	font-weight: bold;
-	font-size: 25px;
-	margin-top: 20%;
+
+
+/*section-dos*/
+
+#celular{
+	background-image: url(../labcar/img/celular.png);
+	height: 500px;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
-/*sección-tres*/
+
 
 .dos{
-	background: #FC9829;
+	background:#FCE22D;	
+	height: 600px;
+	
 }
-
-#titulo-tres{
-
-}
-
-
-
-
+	
+	
+   
