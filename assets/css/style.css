@@ -1,7 +1,4 @@
-*{
-	margin: 0;
-	padding: 0;
-}
+
 
 .navbar{
 	background-color: white;
@@ -23,7 +20,53 @@
 #boton-menu{
 	margin-right: 10%;
 
+}
 
+.recuadro{
+	background: #FC9829;
+	width: 30%;
+	height: 300px;
+	padding-bottom: 50px;
+	position: absolute;
+	bottom: 50px;
+	left: 65%;
 }
 
 
+#titulo-uno{
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	font-family:'Fira Sans', sans-serif;
+	padding-left: 30px;
+	padding-top: 30px;
+
+}
+
+#titulo-dos{
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	font-family:'Fira Sans', sans-serif;
+	padding-left: 30px;	
+}
+
+p{
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+#tipografia{
+	width: 60px;
+
+}
+
+#boton-dos{
+	margin-left: 9%;
+	margin-top: 10%;
+	color: black;
+	font-weight: bold;
+}
