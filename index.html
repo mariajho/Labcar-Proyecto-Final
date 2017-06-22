@@ -67,9 +67,9 @@
 							<div class="hidden-md hidden-sm col-xs-4">
 								<div class="recuadro-dos">
 									<h1 id="comienza">Comienza a viajar con</h1>
-									<button class="btn btn-default" id="boton-tres" type="button">Descarga el app </button>-->
+									<button class="btn btn-default" id="boton-tres" type="button">Descarga el app </button>
 								</div>
-							</div>
+							</div>-->
 						</div>
 					</div>
 				</div>
@@ -80,7 +80,7 @@
 		<!--sección-dos-->
 		<section class="dos">
 			<div class="container">
-				<div class="row">
+				<div class="row" id="row">
 					<div class="col-md-4 col-sm-12 col-xs-12" id="celular">
 					</div>
 					<div class="col-md-4 hidden-sm hidden-xs">
@@ -128,71 +128,84 @@
 						<button class="btn btn-default" id="boton-ultimo" type="button">!TRAZAR RUTA!</button>
 						<h6 id="s">S/. 18</h6>
 					</div>				
-				<div class="col-md-5 hidden-sm hidden-xs" id="map">
-					<!--Aquí ira nuestro mapa-->
+					<div class="col-md-5 hidden-sm hidden-xs" id="map">
+						<!--Aquí ira nuestro mapa-->
+					</div>
+
 				</div>
-
 			</div>
-		</div>
-	</section>
+		</section>
 
 
-	<!--footer-->
-	<section class="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-sm-12 col-xs-12">
-					<hr>
-					<div class="row">
-						<div class="col-md-6 col-sm-12 col-xs-12 text-left">
-							<ul>
-								<li>Viaja</li>
-								<li>Conduce</li>
-								<li>Ciudades</li>
-								<li>Tarifas</li>
-								<li>Entregas</li>
-								<li>Cómo funciona?</li>
-								<li>Países</li>
-								<li>Seguridad</li>
-							</ul>
-						</div>
-						<div class="col-md-6 hidden-sm hidden-xs text-rigth">
-							<ul>
-								<li>Oportunidades</li>
-								<li>Conduce</li>
-								<li>Ciudades</li>
-								<li>Tarifas</li>
-								<li>Entregas</li>
-								<li>Cómo funciona?</li>
-								<li>Países</li>
-								<li>Seguridad</li>
-							</ul>
-						</div>
+		<!--footer-->
 
-						<div class="col-md-6 text-left">
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
 
-							<ul>
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-								<h6 id="ultimo-parrafo">© 2017 LabCar technologies Inc.</h6>
-							</div>
-						</section>
+						<img src="assets/labcar/img/logo-blanco.png" alt="" id="blanco">
 
-						<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyoxqCdCpKHy1pAKsRAKxSA0rJHqsJBPs&callback=initMap&libraries=places"></script>
-						<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-						<script type="text/javascript" src="assets/js/main.js" ></script>
-					</body>
-					</html>
+					</div>
+				</div>
+				<hr>
 
-
-
-
-
-					<ul>
+				<div class="row" id="">
+					<div class="col-md-3 col-sm-6 col-xs-6 text-left" id="lista">
+						<li><a id="datos">Viaja</a></li>
+						<li><a id="datos">Conduce</a></li>
+						<li><a id="datos">Ciudades</a></li>	
+						<li><a id="datos">Tarifas</a></li>	
+						<li><a id="datos">Entregas</a></li>	
+						<li><a id="datos">Cómo funciona</a></li>	
+						<li><a id="datos">Países</a></li>
+						<li><a id="datos">Seguridad</a></li>	
+					</div>
+					<div class="col-md-3 hidden-sm hidden-xs text-left" id="lista">
+						<li><a id="datos">Oportunidades</a></li>
+						<li><a id="datos">Nuestra historia</a></li>
+						<li><a id="datos">API de LabCar</a></li>	
+						<li><a id="datos">Eventos</a></li>	
+						<li><a id="datos">Desarrolladores</a></li>	
+						<li><a id="datos">Servicios</a></li>	
+						<li><a id="datos">Laboratoria</a></li>	
+						<li><a id="datos">Coders</a></li>	
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-left">
+						<img src="assets/labcar/img/app-store.png" alt="" id="imagen-store">
+						<img src="assets/labcar/img/google-play.png" alt="" id="imagen-play">	
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-left">
+					<div class="iconos">
 						<i class="fa fa-facebook" aria-hidden="true"></i>
 						<i class="fa fa-twitter" aria-hidden="true"></i>
 						<i class="fa fa-linkedin" aria-hidden="true"></i>
 						<i class="fa fa-apple" aria-hidden="true"></i>
-						<i class="fa fa-play" aria-hidden="true"></i>
-					</ul>
+						<i class="fa fa-play" aria-hidden="true"></i>	
+					</div>	
 				</div>
+
+
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+					<hr>
+						<p id="parr">© 2017 LabCar technologies Inc.</p>	
+					</div>
+				</div>
+			</div>
+
+		</footer>
+		<script src="https://use.fontawesome.com/3132b5e60e.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyoxqCdCpKHy1pAKsRAKxSA0rJHqsJBPs&callback=initMap&libraries=places"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="assets/js/main.js" ></script>
+	</body>
+	</html>
+
+
+
+
+
+
 

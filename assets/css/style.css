@@ -98,11 +98,19 @@ p{
 	height: 500px;
 	background-repeat: no-repeat;
 	background-position: bottom;
+	
 }
 
 .dos{
 	background:#f7b617;	
 	height: 600px;
+}
+
+#row{
+	border: 2px solid white;
+	margin-top: 2%;
+	
+
 }
 
 .titulo-descarga {
@@ -145,6 +153,7 @@ p{
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 600px;	
+
 }
 
 .titulo-descarga{
@@ -225,7 +234,8 @@ p{
 /*footer*/
 
 hr{
-	background-color: white;
+	background: black;
+	border: 1px solid black;
 	margin-top: 5%;
 
 }
@@ -235,4 +245,14 @@ hr{
 	height: 400px;
 	color: white;
 	text-decoration: none;
+}
+
+.fa fa-facebook{
+	width: 10px;
+	height: 10px;
+	
+}
+
+.iconos{
+	margin-top: 20%;
 }
