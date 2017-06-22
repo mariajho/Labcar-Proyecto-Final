@@ -100,13 +100,74 @@ p{
     background-position: bottom;
 }
 
-
-
 .dos{
-	background:#FCE22D;	
+	background:#FC9829;	
 	height: 600px;
-	
 }
-	
-	
-   
+
+.titulo-descarga {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+
+
+}
+
+#parrafo{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 10%;
+	margin-top: 15%;
+}
+
+#parrafo{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+
+/*section-tres*/
+
+.recuadro-gris {
+    height: 579px;
+    width: 510px;
+    background-color: rgb(0,0,5);
+    opacity: 0.2;
+    margin-left: 40%;
+}
+
+.tres{
+	background-image: url(../labcar/img/conduce.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;	
+}
+
+.titulo-descarga{
+	color: white;
+	font-weight: bold;
+	padding-top: 120px;
+	padding-left: 50px;
+	font-size: 35px;
+}
+
+#parrafo-uno{
+	color: white;
+	font-weight: bold;
+	padding-top: 60px;
+	padding-left: 50px;
+	padding-bottom: 40px;
+	font-size: 25px;
+}
+
+#boton-naranjo{
+ 	background: #FC9829;
+ 	font-weight: bold;
+	color: white;
+	border: transparent;
+	margin-left: 50px;
+}
