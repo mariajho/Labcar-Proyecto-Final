@@ -15,9 +15,9 @@
 
 
 .navbar-default .navbar-nav>li>a {
-    color: black;
-    margin-top: 15px;
-    margin-right: 30px;
+	color: black;
+	margin-top: 15px;
+	margin-right: 30px;
 }
 
 #boton-menu{
@@ -30,19 +30,19 @@
 #foto-principal{
 	background-image: url(../labcar/img/taxi.jpg);
 	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 700px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 700px;
 }
 
 /*proimer-recuadro*/
 .recuadro {
-    background: #FC9829;
-    width: 404px;
-    height: 300px;
-    padding: 37px;
-    margin-top: 155px;
-    margin-left: 225px;
+	background: #f7b617;
+	width: 404px;
+	height: 300px;
+	padding: 37px;
+	margin-top: 155px;
+	margin-left: 225px;
 }
 
 
@@ -69,13 +69,13 @@ p{
 
 /*segundo-recuadro*/
 .recuadro-dos {
-    background: #FC9829;
-    width: 404px;
-    height: 300px;
-    padding: 37px;
-    margin-top: 155px;
-    margin-left: 225px;
-    z-index: 1000;
+	background: #f7b617;
+	width: 404px;
+	height: 300px;
+	padding: 37px;
+	margin-top: 155px;
+	margin-left: 225px;
+	z-index: 1000;
 }
 
 #comienza{
@@ -96,19 +96,19 @@ p{
 #celular{
 	background-image: url(../labcar/img/celular.png);
 	height: 500px;
-    background-repeat: no-repeat;
-    background-position: bottom;
+	background-repeat: no-repeat;
+	background-position: bottom;
 }
 
 .dos{
-	background:#FC9829;	
+	background:#f7b617;	
 	height: 600px;
 }
 
 .titulo-descarga {
-    color: white;
-    font-weight: bold;
-    font-size: 35px;
+	color: white;
+	font-weight: bold;
+	font-size: 35px;
 
 
 }
@@ -132,11 +132,11 @@ p{
 /*section-tres*/
 
 .recuadro-gris {
-    height: 579px;
-    width: 510px;
-    background-color: rgb(0,0,5);
-    opacity: 0.2;
-    margin-left: 40%;
+	height: 579px;
+	width: 510px;
+	background-color: rgb(0,0,5);
+	opacity: 0.2;
+	margin-left: 40%;
 }
 
 .tres{
@@ -165,9 +165,45 @@ p{
 }
 
 #boton-naranjo{
- 	background: #FC9829;
- 	font-weight: bold;
+	background: #f7b617;
+	font-weight: bold;
 	color: white;
 	border: transparent;
 	margin-left: 50px;
+}
+
+
+/*seccion-cuatro*/
+.cuatro{
+	background-color: #f7b617;
+	color:white;
+	height: 500px;
+}
+
+.input-lg{
+	margin-left: 10%;
+	margin-bottom: 10%;
+	background: transparent;
+}
+
+.glyphicon-record{
+	width: 20%;
+	
+}
+
+
+
+/*footer*/
+
+hr{
+	background-color: white;
+	margin-top: 5%;
+
+}
+
+.footer{
+	background-color: #2b2b2b;
+	height: 400px;
+	color: white;
+	text-decoration: none;
 }
